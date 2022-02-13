@@ -31,9 +31,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -101,7 +105,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           }
         }
       }
